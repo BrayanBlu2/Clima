@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: script.js 
+Style:styles.css
+sitemap: sitemap.xml

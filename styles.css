@@ -1,0 +1,273 @@
+body{
+    font-family: Arial;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0;
+    padding-top: 40px;
+}
+
+
+h1{
+    text-align: center;
+    height: auto;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 30px;
+    font-size: 60px;
+    background-image: url(climas.webp);
+    background-size: cover;
+    background-position: initial;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 20px;
+    height: 110px;
+    border: 2px solid lemonchiffon;
+    margin-top: 90px;
+}
+
+h2{
+    font-size: 39px;
+    text-align: center;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 2px solid lemonchiffon;
+}
+
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+img{
+    width:100px;
+    height: auto;
+}
+
+p{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#pronActu{
+    display: flex;
+    opacity: 8;
+    width: 76%;
+    margin-left: 12%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+}
+
+#Actu1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+    border: 2px solid lemonchiffon;
+    justify-content: center;
+    p{
+        text-align: start;
+        height: 22%;
+    }
+    h3{
+        height: 10%;
+    }
+}
+
+#Actu2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 0px;
+    border: 2px solid lemonchiffon;
+    justify-content: center;
+    p{
+        text-align: start;
+        font-size: 38px;
+        height: 10%;
+    }
+    h3{
+        height: 10%;
+    }
+    
+}
+
+#imagenTemp5{
+    width:40% ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid lemonchiffon;
+    img{
+        height: 220px;
+        width: auto;
+    }
+}
+
+#proximasH{
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.proxhoras{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin: 7px;
+    img{
+        height: 100px;
+    }
+}
+
+#tempMaxMin{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 74%;
+    margin-left: 13%;
+}
+
+.partesMaxMin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 8px;
+    border: 2px solid lemonchiffon;
+    border-radius: 5px;
+    p{
+        text-align: start;
+        font-size: 38px;
+        height: 10%;
+    }
+    img{
+        height: 150px;
+        width: auto;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    height: 90px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    position:fixed ;
+    z-index: 999;
+    width: 100%;
+    margin-top: -40px;
+    border: 2px solid lemonchiffon;
+    background-color: white;
+}
+
+#logo{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    img{
+        height: 60px;
+        width: auto;
+        margin-left: 40px;
+    }   
+}
+#textito{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    ul{
+
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        
+        a {
+
+            text-decoration: none; 
+            color: black;
+        }
+
+        li:hover a {
+            font-size: 2.4vw;
+        }     
+        li{
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+            border: 2px solid lemonchiffon;   
+            border-radius: 8px;
+            margin: 0 20px;
+            width: 100px;
+            list-style: none;
+            text-align: center;
+            font-size: 2vw;
+            ul{
+                display: block;
+                float: left;
+                flex-direction: column;
+                position: absolute;
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+                align-items: center;
+                justify-content: center;
+                background-color: white;
+                width: 60px;
+                border: 2px solid lemonchiffon;   
+                border-radius: 8px;
+                margin-top: auto;
+                display: none;
+                li{
+                    margin-left: -40px;
+                    margin-top: 20px;
+                    button{
+                        background-color: transparent;
+                        border-color: transparent;
+                    }
+                }
+            }     
+        }      
+    }
+}
+
+#textito li:hover > ul{ /*los li que estan dentro de textito y que son directos de un ul que aparezcan*/
+    display: block;
+}
+
+button:hover{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+footer{
+    text-align: center;
+    border: 2px solid lemonchiffon;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    margin-top: 40px; 
+}
+
+#identificarZona{
+    text-align: center;
+    border: 2px solid lemonchiffon;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    font-size: 20px;
+    border-radius: 7px;
+    width: 40%;
+    height: 50px;
+    margin: 20px 0px 20px 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

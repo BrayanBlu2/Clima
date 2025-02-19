@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clima</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <meta name="description" content="Una página del clima">
+    <link rel="icon" href="logoPato.png" type="img">
+</head>
+<body>
+<header>
+    <div id="logo">
+        <img src="logoPato.png" alt="loguito" title="Patito-glog-glog">
+    </div>
+    <div id="textito">
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a>Zonas</a>
+            <ul>
+                <li><button onclick="donosti=true">Donosti</button></li>
+                <li><button onclick="madrid=true">Madrid</button></li>
+                <li><button onclick="barcelona=true">Barcelona</button></li>
+                <li><button onclick="valencia=true">Valencia</button></li>
+                <li><button onclick="bilbao=true" >Bilbao</button></li>
+                <li><button onclick="sevilla=true">Sevilla</button></li>
+            </ul>
+            </li>
+            
+        </ul>
+    </div>
+</header>
+
+    <h1>Temperatura y Clima</h1>
+    
+    <div id="identificarZona">Zona actual:</div>
+
+    <div id="pronActu">
+    <div id="Actu1">
+        <h3>Localización</h3>
+        <p id="Sitio"></p>
+    </div>
+    <div id="Actu2">
+        <h3>Temperatura actual </h3>
+        <p id="temperatura"></p>
+    </div>
+    <div id="imagenTemp5"></div>
+    </div>
+
+    <h2>Pronóstico de las siguientes horas</h2>
+
+    <div id="proximasH">
+        <div class="proxhoras">
+            <p id="hora1"></p>
+            <p id="temp1"></p>
+            <p id="preci1"></p>
+            <div id="imagenTemp0"></div>
+        </div>
+        <div class="proxhoras">
+            <p id="hora2"></p>
+            <p id="temp2"></p>
+            <p id="preci2"></p>
+            <div id="imagenTemp1"></div>
+        </div>
+        <div class="proxhoras">
+            <p id="hora3"></p>
+            <p id="temp3"></p>
+            <p id="preci3"></p>
+            <div id="imagenTemp2"></div>
+        </div>
+    </div>
+
+    <h2>Temperatura máxima y mínima de hoy</h2>
+
+    <div id="tempMaxMin">
+        <div class="partesMaxMin">
+            <h3>Temperatura Máxima</h3>
+            <p id="tempMax"></p>
+            <div id="imagenTemp3"></div>
+        </div>
+        <div class="partesMaxMin">
+            <h3>Temperatura Mínima</h3>
+            <p id="tempMin"></p>
+            <div id="imagenTemp4"></div>
+        </div>
+    </div>
+
+    <footer>Toma tu paragua y tus gafas de sol </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
